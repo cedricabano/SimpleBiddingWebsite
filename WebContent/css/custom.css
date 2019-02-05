@@ -1,0 +1,146 @@
+@charset "ISO-8859-1";
+
+body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #bdd8fc;
+}
+
+.banner{
+	background-color: #a7b4d3;
+	text-align: center;
+	color: white;
+	height: auto;
+}
+
+#banner_home{
+	text-decoration:none;
+	color:white;
+	font-family:"Georgia";
+}
+
+.container {
+  margin: 80px auto;
+  width: 640px;
+}
+	
+.login {
+  color:#616d89;
+  font-family:"Georgia";
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+  @include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
+}
+
+.register{
+  color:#616d89;
+  font-family:"Georgia";
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+  @include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=number]{
+  margin: 5px;
+  padding: 0 45px 0 5px;
+  width: 248px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+}
+
+select{
+  margin: 5px;
+  padding: 5px 0 5px;
+  width: 248px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+}
+
+#messageBox{
+  margin: 5px;
+  padding: 0 45px 0 5px;
+  width: 248px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+	
+}
+
+input[type=submit] {
+	color:white;
+	height:30px;
+	width:100%;
+	font-family:"Georgia";
+	background-color: #a7b4d3;
+	border: none;
+	margin: 10px 0 0;
+}
+
+#register{
+	color:#616d89;
+	font-family:"Georgia";
+}
+
+.register_labels{
+	margin: 0 5px 5px;
+	float: left;
+    font-size: 15px;
+    color: #555;
+    text-align: left;
+}
+
+input::-webkit-input-placeholder { 
+  color: #616d89;
+  font-style: italic;
+  font-size: 12px;
+  opacity: .5;
+}
+input:-moz-placeholder {
+  color: #616d89;
+  font-style: italic;
+  font-size: 12px;
+  opacity: .5;
+}
+input::-moz-placeholder {  
+  color: #616d89;
+  font-style: italic;
+  font-size: 12px;
+  opacity: .5;
+}
+input:-ms-input-placeholder {
+  color: #616d89;
+  font-style: italic;
+  font-size: 12px;
+  opacity: .5;
+}
+
+#sort_btn{
+	margin: 0 0 0 10px;
+	width:60px;
+}
+
+
+
